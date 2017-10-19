@@ -3,8 +3,8 @@ var util = require('util');
 
 /* CONFIGURATION */
 var config = {
-	gcpProjectId: '',
-	gcpPubSubSubscriptionName: '',
+	gcpProjectId: 'matcha-demo',
+	gcpPubSubSubscriptionName: 'projects/matcha-demo/subscriptions/test_sub',
 	gcpServiceAccountKeyFilePath: './gcp_private_key.json'
 }
 _checkConfig();
